@@ -1,0 +1,170 @@
+ body
+ {
+    background-color: black;
+    --metal-tex: 
+    url(https://images.unsplash.com/photo-1501166222995-ff31c7e93cef?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTcyMDc2NzU&ixlib=rb-1.2.1&q=80);
+  
+  background: black;
+  color: white;
+  font-family: system-ui, sans-serif;
+ }
+
+ .telling {
+    text-align: center;
+    position: relative;
+
+margin-top: 0px;
+margin-bottom: 0px;
+    color: transparent;
+    font-family: impact, sans-serif;
+    font-size: 10vw;
+    letter-spacing: 0.05em;
+    background-image: var(--metal-tex);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+
+ .major
+ {
+text-align: center;
+ }
+ .quad
+ {
+    display: inline-block;
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+ }
+.first
+{ border-top-right-radius: 150px;
+    border-bottom-left-radius: 300px;
+    margin-right: 1.5%;
+    background-color: green;
+
+}
+.second
+{ border-top-left-radius: 150px;
+    border-bottom-right-radius: 300px;
+    background-color: red;
+}
+.third
+{ border-bottom-right-radius: 150px;
+    border-top-left-radius: 300px;
+    margin-right: 1.5%;
+    background-color: blue;
+}
+.fourth
+{ border-bottom-left-radius: 150px;
+    border-top-right-radius: 300px;
+    background-color: coral;
+}
+
+.f1
+{
+    
+}
+
+.simon_text
+{
+    position: relative;
+animation-name: simon;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+}
+
+@keyframes simon 
+{
+from 
+{
+    left:-120px } to {left: 120px
+} 
+}
+
+.temp
+{
+/* animation-name: bkg ;
+animation-duration: .9s; */
+background-color: black;
+
+}
+/* @keyframes bkg
+{
+
+50%
+{
+    background-color: black;
+}
+80%{
+    background-color: WHITE;
+}
+100%
+{
+
+}
+} */
+
+.score 
+{
+
+    position: absolute;
+    top: 15%;
+    right: 13%;
+    color: transparent;
+    font-family: impact, sans-serif;
+    font-size: 4vw;
+    letter-spacing: 0.05em;
+    background-image: var(--metal-tex);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.tryagain
+{
+    text-align: center;
+    color: transparent;
+    font-family: impact, sans-serif;
+    font-size: 8vw;
+    letter-spacing: 0.05em;
+    background-image: var(--metal-tex);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+
+.SCOREs
+{
+    margin-top: -90px;
+}
+
+
+
+
+.button {
+    position: absolute;
+    top:40%;
+    left: 20%;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
