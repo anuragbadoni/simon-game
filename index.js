@@ -15,7 +15,7 @@ var btn = document.querySelector(".play_button");
 
 btn.addEventListener("click",function()
 {
-
+    document.getElementsByClassName("SCOREs")[0].innerHTML=0;
     document.getElementsByClassName("tryagain")[0].innerHTML="";
     rr=0;
 arr=[1];
